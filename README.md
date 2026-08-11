@@ -108,7 +108,7 @@ Dosya bütünlüğünü doğrulamak isteyenler için: [**SHA256SUMS.txt**](https
 
 Tasnif’i ücretsiz olarak meslektaşlarımın kullanımına açıyorum. Karşılığında kişisel bir ricam var:
 
-**Annem için, inancınız ve gönlünüz neye elveriyorsa o şekilde bir dua veya güzel dilekte bulunursanız çok sevinirim.**
+**Rahmetli anneannem Cemile Salman için, herkes kendi inancı ve gönlünce bir dua eder veya güzel bir dilekte bulunursa çok sevinirim.**
 
 Her inanca ve dünya görüşüne saygıyla; iyi niyetiniz benim için yeterli.
 
