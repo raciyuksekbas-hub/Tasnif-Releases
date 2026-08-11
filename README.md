@@ -7,7 +7,7 @@
 **UYAP’tan indirdiğiniz belgeleri tek tek klasörlemekle uğraşmayın.**  
 Tasnif; mahkeme/kurum, dosya numarası, belge türü ve dava dosyası ilişkisini bilgisayarınızda analiz eder, doğru klasörü önerir ve **yalnız siz onaylarsanız** düzenler.
 
-![Version](https://img.shields.io/badge/version-v0.3.0%20Beta-555?style=flat-square)
+![Version](https://img.shields.io/badge/version-v0.3.1%20Beta-555?style=flat-square)
 ![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-000?style=flat-square&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![Local](https://img.shields.io/badge/çalışma-yerel-success?style=flat-square)
@@ -21,7 +21,7 @@ Tasnif; mahkeme/kurum, dosya numarası, belge türü ve dava dosyası ilişkisin
 | 🪟 Windows | 🍎 macOS |
 |---|---|
 | **Windows x64** | **Apple Silicon (M1/M2/M3/M4 ve sonrası)** |
-| [**Tasnif v0.3.0 Beta — Windows'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.3.0/Tasnif.Setup.0.3.0.exe) | [**Tasnif v0.3.0 Beta — macOS'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.3.0/Tasnif-0.3.0-macOS-arm64.zip) |
+| [**Tasnif v0.3.1 Beta — Windows'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.3.1/Tasnif.Setup.0.3.1.exe) | [**Tasnif v0.3.1 Beta — macOS'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.3.1/Tasnif-0.3.1-arm64.dmg) |
 
 > **Beta sürümüdür.** Önemli belgelerde işlem öncesinde Tasnif’in önerdiği hedefi kontrol etmenizi rica ederim.
 
@@ -84,23 +84,30 @@ Bazı taranmış veya bozuk belgelerde içerik okunamayabilir. Tasnif, güvenili
 
 ---
 
-## 🧪 v0.3.0 Beta
+## 🧪 v0.3.1 Beta
 
-Bu sürüm gerçek kullanım geri bildirimleri toplamak amacıyla yayımlanan beta sürümüdür.
+Bu sürüm, gerçek kullanım geri bildirimlerinin kök-neden düzeltmelerini içeren bir bakım sürümüdür. Yeni özellik eklenmedi; odak doğru yönlendirme ve sorunsuz kurulum.
+
+**Bu sürümde düzeltilenler:**
+- Bir mahkeme diğerine müzekkere yazınca artık gereksiz yere dosya sorulmuyor (yazan mahkeme = dosya sahibi, hitap edilen = bilgi notu).
+- Emniyet/Jandarma/SGK/hastane/banka gibi kurumların düzenleyip bir mahkeme dosyasına atıf yapan belgeleri (ör. Sosyal ve Ekonomik Durum Araştırma Raporu) artık atıf yapılan mahkeme dosyasına yönlendiriliyor.
+- Reddiyat makbuzları, dosya tanınıyorsa artık her seferinde sorulmadan doğru klasöre bağlanıyor.
+- Aynı mahkemenin farklı yazımları tek dava klasörüne toplanıyor; gerçekten farklı mahkemeler yanlışlıkla birleştirilmiyor.
+- macOS’ta bazı Mac’lerde görülen “hasar görmüş olduğu için açılamıyor” hatası giderildi.
 
 ### macOS
 - Apple Silicon / arm64 içindir.
 - Intel Mac sürümü bu pakete dahil değildir.
-- Paket Developer ID ile imzalanmış/notarize edilmiş değildir. İlk açılışta macOS Gatekeeper uyarısı görülebilir.
-- ZIP’i açtıktan sonra `Tasnif.app` dosyasını **Uygulamalar** klasörüne taşıyabilirsiniz.
-- İlk açılışta gerekirse uygulamaya **sağ tık → Aç** yolunu kullanın.
+- Paket Apple Developer ID ile imzalanmış/notarize edilmiş **değildir** (ücretsiz dağıtım). İlk açılışta macOS Gatekeeper “geliştirici doğrulanamadı” uyarısı görülebilir — bu normaldir.
+- DMG’yi açıp `Tasnif.app` dosyasını **Uygulamalar** klasörüne sürükleyin.
+- İlk açılışta uygulamaya **sağ tık → Aç** deyip bir kez onaylayın.
 
 ### Windows
 - Windows x64 içindir.
 - Kurulum paketi henüz code-signed değildir. Microsoft SmartScreen uyarısı görülebilir.
 - Uyarı halinde **Ek bilgi → Yine de çalıştır** seçeneği kullanılabilir.
 
-Dosya bütünlüğünü doğrulamak isteyenler için: [**SHA256SUMS.txt**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.3.0/SHA256SUMS.txt)
+Dosya bütünlüğünü doğrulamak isteyenler için: [**SHA256SUMS.txt**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.3.1/SHA256SUMS.txt)
 
 ---
 
