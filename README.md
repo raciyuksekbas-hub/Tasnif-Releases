@@ -7,7 +7,7 @@
 **UYAP’tan indirdiğiniz belgeleri tek tek klasörlemekle uğraşmayın.**  
 Tasnif; mahkeme/kurum, dosya numarası, belge türü ve dava dosyası ilişkisini bilgisayarınızda analiz eder, doğru klasörü önerir ve **yalnız siz onaylarsanız** düzenler.
 
-![Version](https://img.shields.io/badge/version-v0.4.0%20Beta-555?style=flat-square)
+![Version](https://img.shields.io/badge/version-v0.5.0%20Beta-555?style=flat-square)
 ![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-000?style=flat-square&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![Local](https://img.shields.io/badge/çalışma-yerel-success?style=flat-square)
@@ -21,7 +21,7 @@ Tasnif; mahkeme/kurum, dosya numarası, belge türü ve dava dosyası ilişkisin
 | 🪟 Windows | 🍎 macOS |
 |---|---|
 | **Windows x64** | **Apple Silicon (M1/M2/M3/M4 ve sonrası)** |
-| [**Tasnif v0.4.0 Beta — Windows'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.4.0/Tasnif.Setup.0.4.0.exe) | [**Tasnif v0.4.0 Beta — macOS'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.4.0/Tasnif-0.4.0-arm64.dmg) |
+| [**Tasnif v0.5.0 Beta — Windows'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.5.0/Tasnif.Setup.0.5.0.exe) | [**Tasnif v0.5.0 Beta — macOS'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.5.0/Tasnif-0.5.0-arm64.dmg) |
 
 > **Beta sürümüdür.** Önemli belgelerde işlem öncesinde Tasnif’in önerdiği hedefi kontrol etmenizi rica ederim.
 
@@ -84,7 +84,7 @@ Bazı taranmış veya bozuk belgelerde içerik okunamayabilir. Tasnif, güvenili
 
 ---
 
-## 🧪 v0.4.0 Beta
+## 🧪 v0.5.0 Beta
 
 Bu sürüm, gerçek kullanım geri bildirimlerinin kök-neden düzeltmelerini içeren bir bakım sürümüdür. Yeni özellik eklenmedi; odak doğru yönlendirme ve sorunsuz kurulum.
 
@@ -107,7 +107,7 @@ Bu sürüm, gerçek kullanım geri bildirimlerinin kök-neden düzeltmelerini i�
 - Kurulum paketi henüz code-signed değildir. Microsoft SmartScreen uyarısı görülebilir.
 - Uyarı halinde **Ek bilgi → Yine de çalıştır** seçeneği kullanılabilir.
 
-Dosya bütünlüğünü doğrulamak isteyenler için: [**SHA256SUMS.txt**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.4.0/SHA256SUMS.txt)
+Dosya bütünlüğünü doğrulamak isteyenler için: [**SHA256SUMS.txt**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.5.0/SHA256SUMS.txt)
 
 ---
 
