@@ -86,14 +86,14 @@ Bazı taranmış veya bozuk belgelerde içerik okunamayabilir. Tasnif, güvenili
 
 ## 🧪 v0.5.0 Beta
 
-Bu sürüm, gerçek kullanım geri bildirimlerinin kök-neden düzeltmelerini içeren bir bakım sürümüdür. Yeni özellik eklenmedi; odak doğru yönlendirme ve sorunsuz kurulum.
+Bu sürüm özellikle **büyük belge gruplarının daha sağlıklı işlenmesi** ve Tasnif’in kullanıcı tarafından tanımlanan belge türlerini aynı çalışma içinde doğru biçimde hatırlaması üzerine odaklanan bir stabilizasyon güncellemesidir.
 
-**Bu sürümde düzeltilenler:**
-- Bir mahkeme diğerine müzekkere yazınca artık gereksiz yere dosya sorulmuyor (yazan mahkeme = dosya sahibi, hitap edilen = bilgi notu).
-- Emniyet/Jandarma/SGK/hastane/banka gibi kurumların düzenleyip bir mahkeme dosyasına atıf yapan belgeleri (ör. Sosyal ve Ekonomik Durum Araştırma Raporu) artık atıf yapılan mahkeme dosyasına yönlendiriliyor.
-- Reddiyat makbuzları, dosya tanınıyorsa artık her seferinde sorulmadan doğru klasöre bağlanıyor.
-- Aynı mahkemenin farklı yazımları tek dava klasörüne toplanıyor; gerçekten farklı mahkemeler yanlışlıkla birleştirilmiyor.
-- macOS’ta bazı Mac’lerde görülen “hasar görmüş olduğu için açılamıyor” hatası giderildi.
+**v0.5.0 ile gelen başlıca değişiklikler:**
+- Büyük belge gruplarında performans iyileştirildi.
+- Tasnif sırasında **gerçek zamanlı ilerleme göstergesi** eklendi; kaç belgenin işlendiği artık görülebiliyor.
+- Dosya adlarındaki `(1)`, `(2)` gibi kopya ekleri artık ayrı belge türleri olarak değerlendirilmez.
+- Bir belge türü **Düzenle** seçeneğiyle tanımlandıktan sonra, aynı türdeki diğer belgeler için aynı soru tekrar tekrar sorulmaz.
+- Büyük batch işlemlerinde genel kararlılık ve kullanıcı geri bildirimi iyileştirildi.
 
 ### macOS
 - Apple Silicon / arm64 içindir.
