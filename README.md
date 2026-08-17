@@ -7,7 +7,7 @@
 **UYAP’tan indirdiğiniz belgeleri tek tek klasörlemekle uğraşmayın.**  
 Tasnif; mahkeme/kurum, dosya numarası, belge türü ve dava dosyası ilişkisini bilgisayarınızda analiz eder, doğru klasörü önerir ve **yalnız siz onaylarsanız** düzenler.
 
-![Version](https://img.shields.io/badge/version-v0.7.1%20Beta-555?style=flat-square)
+![Version](https://img.shields.io/badge/version-v0.7.2%20Beta-555?style=flat-square)
 ![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-000?style=flat-square&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![Local](https://img.shields.io/badge/çalışma-yerel-success?style=flat-square)
@@ -21,7 +21,7 @@ Tasnif; mahkeme/kurum, dosya numarası, belge türü ve dava dosyası ilişkisin
 | 🪟 Windows | 🍎 macOS |
 |---|---|
 | **Windows x64** | **Apple Silicon (M1/M2/M3/M4 ve sonrası)** |
-| [**Tasnif v0.7.1 Beta — Windows'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.7.1/Tasnif.Setup.0.7.1.exe) | [**Tasnif v0.7.1 Beta — macOS'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.7.1/Tasnif-0.7.1-arm64.dmg) |
+| [**Tasnif v0.7.2 Beta — Windows'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.7.2/Tasnif.Setup.0.7.2.exe) | [**Tasnif v0.7.2 Beta — macOS'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.7.2/Tasnif-0.7.2-arm64.dmg) |
 
 > **Beta sürümüdür.** Önemli belgelerde işlem öncesinde Tasnif’in önerdiği hedefi kontrol etmenizi rica ederim.
 
@@ -84,9 +84,9 @@ Bazı taranmış veya bozuk belgelerde içerik okunamayabilir. Tasnif, güvenili
 
 ---
 
-## 🧪 v0.7.1 Beta
+## 🧪 v0.7.2 Beta
 
-> **Windows kullanıcıları v0.7.1 kullanmalıdır.** v0.7.0 Windows paketinde native canvas dependency eksikti ve uygulama açılmıyordu; v0.7.1 bunu düzeltir.
+> **Windows kullanıcıları v0.7.2 kullanmalıdır.** v0.7.0 ve v0.7.1 Windows paketlerinde uygulama açılmıyordu; ayrıca v0.7.1 kurulumu bazı bilgisayarlarda hiç tamamlanmıyordu. v0.7.2 her ikisini de giderir.
 
 
 Bu sürüm, Tasnif'in **belge içeriğinden dosya kimliği çıkarma** yeteneğini ve **yerel OCR**'ı belirgin biçimde güçlendirir.
@@ -111,7 +111,7 @@ Bu sürüm, Tasnif'in **belge içeriğinden dosya kimliği çıkarma** yeteneği
 - Kurulum paketi henüz code-signed değildir. Microsoft SmartScreen uyarısı görülebilir.
 - Uyarı halinde **Ek bilgi → Yine de çalıştır** seçeneği kullanılabilir.
 
-Dosya bütünlüğünü doğrulamak isteyenler için: [**SHA256SUMS.txt**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.7.1/SHA256SUMS.txt)
+Dosya bütünlüğünü doğrulamak isteyenler için: [**SHA256SUMS.txt**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.7.2/SHA256SUMS.txt)
 
 ---
 
