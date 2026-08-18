@@ -27,27 +27,6 @@ Tasnif; mahkeme/kurum, dosya numarası, belge türü ve dava dosyası ilişkisin
 
 ---
 
-## 🧪 v0.8.0 Önizleme / Test Sürümü
-
-v0.8.0, v1.0 öncesindeki **son büyük beta** turudur ve şu an **önizleme (pre-release)** olarak yayındadır. Büyük UYAP indirmeleri (500–2.000+ belge) için tasarlanan yeni davranışları içerir:
-
-- **Klasörü siz seçtiyseniz Tasnif bir daha tartışmaz** — manuel hedef seçimi otomatik tespitlerden her zaman üstündür.
-- **UYAP dosya adı semantiği** — `2026_192_Karar_İlamı_...` önekindeki dosya numarası, belgenin indirildiği fiziksel dosya olarak değerlendirilir; belge üzerindeki BAM/üst derece esası artık gereksiz "Düzeltme Gerekli" üretmez.
-- **Sınıflandırılamayanlar** — kimliği belirlenemeyen/okunamayan belgeler artık yarım bırakılmaz; ayrı bir klasöre kopyalanmak üzere planlanır.
-- **Toplu atama** — yüzlerce belgeyi seçip tek işlemle tek dosyaya atayabilirsiniz.
-- **Belgeyi Aç** — sonuç ekranında çift tıkla belgeyi açıp kontrol edebilirsiniz.
-- **Sekme değiştirmek analizi bozmaz** — 2.000 belgelik analiz sırasında Ayarlar'a gidip dönebilirsiniz.
-- **Varsayılan işlem: Kopyala** — kaynak belgeleriniz yerinde kalır.
-- **Windows-güvenli kısa yollar** — aşırı uzun klasör/dosya adları güvenli biçimde kısaltılır.
-
-| 🪟 Windows (Önizleme) | 🍎 macOS (Önizleme) |
-|---|---|
-| [**Tasnif v0.8.0 Beta — Windows'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.8.0/Tasnif.Setup.0.8.0.exe) | [**Tasnif v0.8.0 Beta — macOS'u İndir**](https://github.com/raciyuksekbas-hub/Tasnif-Releases/releases/download/v0.8.0/Tasnif-0.8.0-arm64.dmg) |
-
-> Önizleme sürümü test amaçlıdır; kararlı beta olarak v0.7.2 önerilmeye devam eder. Geri bildirimleriniz v1.0'ı şekillendirecek.
-
----
-
 ## Tasnif ne yapar?
 
 Gün içinde UYAP’tan onlarca belge indiriyoruz. Bir süre sonra masaüstü ve İndirilenler klasörü; dava dilekçeleri, tensip zaptları, kararlar, bilirkişi raporları, UDF’ler, PDF’ler ve taranmış belgelerle doluyor.
